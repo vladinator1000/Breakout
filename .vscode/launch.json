@@ -1,0 +1,128 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "Breakout (Debug)",
+			"request": "launch",
+			"preLaunchTask": "Breakout Win64 Debug Build",
+			"program": "C:\\Users\\Vlady\\Documents\\Unreal Projects\\Breakout\\Binaries\\Win64\\UE4-Win64-Debug.exe",
+			"args": [
+			],
+			"cwd": "C:\\Unreal\\UE_4.24",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Unreal\\UE_4.24\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "Breakout (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "Breakout Win64 DebugGame Build",
+			"program": "C:\\Users\\Vlady\\Documents\\Unreal Projects\\Breakout\\Binaries\\Win64\\UE4-Win64-DebugGame.exe",
+			"args": [
+			],
+			"cwd": "C:\\Unreal\\UE_4.24",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Unreal\\UE_4.24\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "Breakout (Development)",
+			"request": "launch",
+			"preLaunchTask": "Breakout Win64 Development Build",
+			"program": "C:\\Users\\Vlady\\Documents\\Unreal Projects\\Breakout\\Binaries\\Win64\\UE4.exe",
+			"args": [
+			],
+			"cwd": "C:\\Unreal\\UE_4.24",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Unreal\\UE_4.24\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "Breakout (Shipping)",
+			"request": "launch",
+			"preLaunchTask": "Breakout Win64 Shipping Build",
+			"program": "C:\\Users\\Vlady\\Documents\\Unreal Projects\\Breakout\\Binaries\\Win64\\UE4-Win64-Shipping.exe",
+			"args": [
+			],
+			"cwd": "C:\\Unreal\\UE_4.24",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Unreal\\UE_4.24\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "Breakout (Test)",
+			"request": "launch",
+			"preLaunchTask": "Breakout Win64 Test Build",
+			"program": "C:\\Users\\Vlady\\Documents\\Unreal Projects\\Breakout\\Binaries\\Win64\\UE4-Win64-Test.exe",
+			"args": [
+			],
+			"cwd": "C:\\Unreal\\UE_4.24",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Unreal\\UE_4.24\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "BreakoutEditor (Debug)",
+			"request": "launch",
+			"preLaunchTask": "BreakoutEditor Win64 Debug Build",
+			"program": "C:\\Unreal\\UE_4.24\\Engine\\Binaries\\Win64\\UE4Editor-Win64-Debug.exe",
+			"args": [
+				"C:\\Users\\Vlady\\Documents\\Unreal Projects\\Breakout\\Breakout.uproject"
+			],
+			"cwd": "C:\\Unreal\\UE_4.24",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Unreal\\UE_4.24\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "BreakoutEditor (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "BreakoutEditor Win64 DebugGame Build",
+			"program": "C:\\Unreal\\UE_4.24\\Engine\\Binaries\\Win64\\UE4Editor-Win64-DebugGame.exe",
+			"args": [
+				"C:\\Users\\Vlady\\Documents\\Unreal Projects\\Breakout\\Breakout.uproject"
+			],
+			"cwd": "C:\\Unreal\\UE_4.24",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Unreal\\UE_4.24\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "BreakoutEditor (Development)",
+			"request": "launch",
+			"preLaunchTask": "BreakoutEditor Win64 Development Build",
+			"program": "C:\\Unreal\\UE_4.24\\Engine\\Binaries\\Win64\\UE4Editor.exe",
+			"args": [
+				"C:\\Users\\Vlady\\Documents\\Unreal Projects\\Breakout\\Breakout.uproject"
+			],
+			"cwd": "C:\\Unreal\\UE_4.24",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Unreal\\UE_4.24\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "Generate Project Files",
+			"type": "clr",
+			"request": "launch",
+			"program": "C:\\Unreal\\UE_4.24\\Engine\\Binaries\\DotNET\\UnrealBuildTool.exe",
+			"console": "externalTerminal",
+			"args": [
+				"-projectfiles",
+				"-vscode",
+				"-project=\"C:\\Users\\Vlady\\Documents\\Unreal Projects\\Breakout\\Breakout.uproject\"",
+				"-game",
+				"-engine"
+			],
+			"internalConsoleOptions": "openOnSessionStart",
+			"cwd": "C:\\Unreal\\UE_4.24"
+		}
+	]
+}

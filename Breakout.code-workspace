@@ -1,0 +1,37 @@
+{
+	"folders": [
+		{
+			"name": "Breakout",
+			"path": "."
+		},
+		{
+			"name": "UE4",
+			"path": "C:\\Unreal\\UE_4.24"
+		}
+	],
+	"settings": {
+		"typescript.tsc.autoDetect": "off",
+		"files.associations": {
+			"bitset": "cpp",
+			"chrono": "cpp",
+			"algorithm": "cpp",
+			"hash_map": "cpp",
+			"hash_set": "cpp",
+			"map": "cpp",
+			"set": "cpp",
+			"xhash": "cpp",
+			"xtree": "cpp",
+			"xutility": "cpp",
+			"__bit_reference": "cpp",
+			"unordered_map": "cpp",
+			"unordered_set": "cpp",
+			"tuple": "cpp"
+		}
+	},
+	"extensions": {
+		"recommendations": [
+			"ms-vscode.cpptools",
+			"ms-vscode.csharp"
+		]
+	}
+}
