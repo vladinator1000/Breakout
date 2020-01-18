@@ -33,4 +33,8 @@ public:
 	UPROPERTY(BlueprintReadOnly)
 	FGameplayAttributeData Damage;
 	ATTRIBUTE_ACCESSORS(UBreakoutAttributeSet, Damage)
+	
+	UPROPERTY(BlueprintReadOnly)
+	FGameplayAttributeData Speed;
+	ATTRIBUTE_ACCESSORS(UBreakoutAttributeSet, Speed)
 };

@@ -6,32 +6,18 @@
 		},
 		{
 			"name": "UE4",
-			"path": "C:\\Unreal\\UE_4.24"
+			"path": "/Users/Shared/Epic Games/UE_4.24"
 		}
 	],
 	"settings": {
-		"typescript.tsc.autoDetect": "off",
-		"files.associations": {
-			"bitset": "cpp",
-			"chrono": "cpp",
-			"algorithm": "cpp",
-			"hash_map": "cpp",
-			"hash_set": "cpp",
-			"map": "cpp",
-			"set": "cpp",
-			"xhash": "cpp",
-			"xtree": "cpp",
-			"xutility": "cpp",
-			"__bit_reference": "cpp",
-			"unordered_map": "cpp",
-			"unordered_set": "cpp",
-			"tuple": "cpp"
-		}
+		"typescript.tsc.autoDetect": "off"
 	},
 	"extensions": {
 		"recommendations": [
 			"ms-vscode.cpptools",
-			"ms-vscode.csharp"
+			"ms-vscode.csharp",
+			"vadimcn.vscode-lldb",
+			"ms-vscode.mono-debug"
 		]
 	}
 }

@@ -2,571 +2,306 @@
 	"version": "2.0.0",
 	"tasks": [
 		{
-			"label": "Breakout Win32 Debug Build",
+			"label": "Breakout Mac Debug Build",
 			"group": "build",
-			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
 			"args": [
 				"Breakout",
-				"Win32",
+				"Mac",
 				"Debug",
-				"C:\\Users\\Vlady\\Documents\\Unreal Projects\\Breakout\\Breakout.uproject",
+				"/Users/vladislavveselinov/Documents/Unreal Projects/Breakout/Breakout.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\Unreal\\UE_4.24"
+				"cwd": "/Users/Shared/Epic Games/UE_4.24"
 			}
 		},
 		{
-			"label": "Breakout Win32 Debug Rebuild",
+			"label": "Breakout Mac Debug Rebuild",
 			"group": "build",
-			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
 			"args": [
 				"Breakout",
-				"Win32",
+				"Mac",
 				"Debug",
-				"C:\\Users\\Vlady\\Documents\\Unreal Projects\\Breakout\\Breakout.uproject",
+				"/Users/vladislavveselinov/Documents/Unreal Projects/Breakout/Breakout.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"dependsOn": [
-				"Breakout Win32 Debug Clean"
+				"Breakout Mac Debug Clean"
 			],
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\Unreal\\UE_4.24"
+				"cwd": "/Users/Shared/Epic Games/UE_4.24"
 			}
 		},
 		{
-			"label": "Breakout Win32 Debug Clean",
+			"label": "Breakout Mac Debug Clean",
 			"group": "build",
-			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
 			"args": [
 				"Breakout",
-				"Win32",
+				"Mac",
 				"Debug",
-				"C:\\Users\\Vlady\\Documents\\Unreal Projects\\Breakout\\Breakout.uproject",
-				"-waitmutex"
+				"/Users/vladislavveselinov/Documents/Unreal Projects/Breakout/Breakout.uproject",
+				"-waitmutex",
+				"-clean"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\Unreal\\UE_4.24"
+				"cwd": "/Users/Shared/Epic Games/UE_4.24"
 			}
 		},
 		{
-			"label": "Breakout Win32 DebugGame Build",
+			"label": "Breakout Mac DebugGame Build",
 			"group": "build",
-			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
 			"args": [
 				"Breakout",
-				"Win32",
+				"Mac",
 				"DebugGame",
-				"C:\\Users\\Vlady\\Documents\\Unreal Projects\\Breakout\\Breakout.uproject",
+				"/Users/vladislavveselinov/Documents/Unreal Projects/Breakout/Breakout.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\Unreal\\UE_4.24"
+				"cwd": "/Users/Shared/Epic Games/UE_4.24"
 			}
 		},
 		{
-			"label": "Breakout Win32 DebugGame Rebuild",
+			"label": "Breakout Mac DebugGame Rebuild",
 			"group": "build",
-			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
 			"args": [
 				"Breakout",
-				"Win32",
+				"Mac",
 				"DebugGame",
-				"C:\\Users\\Vlady\\Documents\\Unreal Projects\\Breakout\\Breakout.uproject",
+				"/Users/vladislavveselinov/Documents/Unreal Projects/Breakout/Breakout.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"dependsOn": [
-				"Breakout Win32 DebugGame Clean"
+				"Breakout Mac DebugGame Clean"
 			],
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\Unreal\\UE_4.24"
+				"cwd": "/Users/Shared/Epic Games/UE_4.24"
 			}
 		},
 		{
-			"label": "Breakout Win32 DebugGame Clean",
+			"label": "Breakout Mac DebugGame Clean",
 			"group": "build",
-			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
 			"args": [
 				"Breakout",
-				"Win32",
+				"Mac",
 				"DebugGame",
-				"C:\\Users\\Vlady\\Documents\\Unreal Projects\\Breakout\\Breakout.uproject",
-				"-waitmutex"
+				"/Users/vladislavveselinov/Documents/Unreal Projects/Breakout/Breakout.uproject",
+				"-waitmutex",
+				"-clean"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\Unreal\\UE_4.24"
+				"cwd": "/Users/Shared/Epic Games/UE_4.24"
 			}
 		},
 		{
-			"label": "Breakout Win32 Development Build",
+			"label": "Breakout Mac Development Build",
 			"group": "build",
-			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
 			"args": [
 				"Breakout",
-				"Win32",
+				"Mac",
 				"Development",
-				"C:\\Users\\Vlady\\Documents\\Unreal Projects\\Breakout\\Breakout.uproject",
+				"/Users/vladislavveselinov/Documents/Unreal Projects/Breakout/Breakout.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\Unreal\\UE_4.24"
+				"cwd": "/Users/Shared/Epic Games/UE_4.24"
 			}
 		},
 		{
-			"label": "Breakout Win32 Development Rebuild",
+			"label": "Breakout Mac Development Rebuild",
 			"group": "build",
-			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
 			"args": [
 				"Breakout",
-				"Win32",
+				"Mac",
 				"Development",
-				"C:\\Users\\Vlady\\Documents\\Unreal Projects\\Breakout\\Breakout.uproject",
+				"/Users/vladislavveselinov/Documents/Unreal Projects/Breakout/Breakout.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"dependsOn": [
-				"Breakout Win32 Development Clean"
+				"Breakout Mac Development Clean"
 			],
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\Unreal\\UE_4.24"
+				"cwd": "/Users/Shared/Epic Games/UE_4.24"
 			}
 		},
 		{
-			"label": "Breakout Win32 Development Clean",
+			"label": "Breakout Mac Development Clean",
 			"group": "build",
-			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
 			"args": [
 				"Breakout",
-				"Win32",
+				"Mac",
 				"Development",
-				"C:\\Users\\Vlady\\Documents\\Unreal Projects\\Breakout\\Breakout.uproject",
-				"-waitmutex"
+				"/Users/vladislavveselinov/Documents/Unreal Projects/Breakout/Breakout.uproject",
+				"-waitmutex",
+				"-clean"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\Unreal\\UE_4.24"
+				"cwd": "/Users/Shared/Epic Games/UE_4.24"
 			}
 		},
 		{
-			"label": "Breakout Win32 Shipping Build",
+			"label": "Breakout Mac Shipping Build",
 			"group": "build",
-			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
 			"args": [
 				"Breakout",
-				"Win32",
+				"Mac",
 				"Shipping",
-				"C:\\Users\\Vlady\\Documents\\Unreal Projects\\Breakout\\Breakout.uproject",
+				"/Users/vladislavveselinov/Documents/Unreal Projects/Breakout/Breakout.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\Unreal\\UE_4.24"
+				"cwd": "/Users/Shared/Epic Games/UE_4.24"
 			}
 		},
 		{
-			"label": "Breakout Win32 Shipping Rebuild",
+			"label": "Breakout Mac Shipping Rebuild",
 			"group": "build",
-			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
 			"args": [
 				"Breakout",
-				"Win32",
+				"Mac",
 				"Shipping",
-				"C:\\Users\\Vlady\\Documents\\Unreal Projects\\Breakout\\Breakout.uproject",
+				"/Users/vladislavveselinov/Documents/Unreal Projects/Breakout/Breakout.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"dependsOn": [
-				"Breakout Win32 Shipping Clean"
+				"Breakout Mac Shipping Clean"
 			],
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\Unreal\\UE_4.24"
+				"cwd": "/Users/Shared/Epic Games/UE_4.24"
 			}
 		},
 		{
-			"label": "Breakout Win32 Shipping Clean",
+			"label": "Breakout Mac Shipping Clean",
 			"group": "build",
-			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
 			"args": [
 				"Breakout",
-				"Win32",
+				"Mac",
 				"Shipping",
-				"C:\\Users\\Vlady\\Documents\\Unreal Projects\\Breakout\\Breakout.uproject",
+				"/Users/vladislavveselinov/Documents/Unreal Projects/Breakout/Breakout.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.24"
+			}
+		},
+		{
+			"label": "Breakout Mac Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Breakout",
+				"Mac",
+				"Test",
+				"/Users/vladislavveselinov/Documents/Unreal Projects/Breakout/Breakout.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\Unreal\\UE_4.24"
+				"cwd": "/Users/Shared/Epic Games/UE_4.24"
 			}
 		},
 		{
-			"label": "Breakout Win32 Test Build",
+			"label": "Breakout Mac Test Rebuild",
 			"group": "build",
-			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
 			"args": [
 				"Breakout",
-				"Win32",
+				"Mac",
 				"Test",
-				"C:\\Users\\Vlady\\Documents\\Unreal Projects\\Breakout\\Breakout.uproject",
-				"-waitmutex"
-			],
-			"problemMatcher": "$msCompile",
-			"type": "shell",
-			"options": {
-				"cwd": "C:\\Unreal\\UE_4.24"
-			}
-		},
-		{
-			"label": "Breakout Win32 Test Rebuild",
-			"group": "build",
-			"command": "Engine\\Build\\BatchFiles\\Build.bat",
-			"args": [
-				"Breakout",
-				"Win32",
-				"Test",
-				"C:\\Users\\Vlady\\Documents\\Unreal Projects\\Breakout\\Breakout.uproject",
+				"/Users/vladislavveselinov/Documents/Unreal Projects/Breakout/Breakout.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"dependsOn": [
-				"Breakout Win32 Test Clean"
+				"Breakout Mac Test Clean"
 			],
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\Unreal\\UE_4.24"
+				"cwd": "/Users/Shared/Epic Games/UE_4.24"
 			}
 		},
 		{
-			"label": "Breakout Win32 Test Clean",
+			"label": "Breakout Mac Test Clean",
 			"group": "build",
-			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
 			"args": [
 				"Breakout",
-				"Win32",
+				"Mac",
 				"Test",
-				"C:\\Users\\Vlady\\Documents\\Unreal Projects\\Breakout\\Breakout.uproject",
-				"-waitmutex"
+				"/Users/vladislavveselinov/Documents/Unreal Projects/Breakout/Breakout.uproject",
+				"-waitmutex",
+				"-clean"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\Unreal\\UE_4.24"
-			}
-		},
-		{
-			"label": "Breakout Win64 Debug Build",
-			"group": "build",
-			"command": "Engine\\Build\\BatchFiles\\Build.bat",
-			"args": [
-				"Breakout",
-				"Win64",
-				"Debug",
-				"C:\\Users\\Vlady\\Documents\\Unreal Projects\\Breakout\\Breakout.uproject",
-				"-waitmutex"
-			],
-			"problemMatcher": "$msCompile",
-			"type": "shell",
-			"options": {
-				"cwd": "C:\\Unreal\\UE_4.24"
-			}
-		},
-		{
-			"label": "Breakout Win64 Debug Rebuild",
-			"group": "build",
-			"command": "Engine\\Build\\BatchFiles\\Build.bat",
-			"args": [
-				"Breakout",
-				"Win64",
-				"Debug",
-				"C:\\Users\\Vlady\\Documents\\Unreal Projects\\Breakout\\Breakout.uproject",
-				"-waitmutex"
-			],
-			"problemMatcher": "$msCompile",
-			"dependsOn": [
-				"Breakout Win64 Debug Clean"
-			],
-			"type": "shell",
-			"options": {
-				"cwd": "C:\\Unreal\\UE_4.24"
-			}
-		},
-		{
-			"label": "Breakout Win64 Debug Clean",
-			"group": "build",
-			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
-			"args": [
-				"Breakout",
-				"Win64",
-				"Debug",
-				"C:\\Users\\Vlady\\Documents\\Unreal Projects\\Breakout\\Breakout.uproject",
-				"-waitmutex"
-			],
-			"problemMatcher": "$msCompile",
-			"type": "shell",
-			"options": {
-				"cwd": "C:\\Unreal\\UE_4.24"
-			}
-		},
-		{
-			"label": "Breakout Win64 DebugGame Build",
-			"group": "build",
-			"command": "Engine\\Build\\BatchFiles\\Build.bat",
-			"args": [
-				"Breakout",
-				"Win64",
-				"DebugGame",
-				"C:\\Users\\Vlady\\Documents\\Unreal Projects\\Breakout\\Breakout.uproject",
-				"-waitmutex"
-			],
-			"problemMatcher": "$msCompile",
-			"type": "shell",
-			"options": {
-				"cwd": "C:\\Unreal\\UE_4.24"
-			}
-		},
-		{
-			"label": "Breakout Win64 DebugGame Rebuild",
-			"group": "build",
-			"command": "Engine\\Build\\BatchFiles\\Build.bat",
-			"args": [
-				"Breakout",
-				"Win64",
-				"DebugGame",
-				"C:\\Users\\Vlady\\Documents\\Unreal Projects\\Breakout\\Breakout.uproject",
-				"-waitmutex"
-			],
-			"problemMatcher": "$msCompile",
-			"dependsOn": [
-				"Breakout Win64 DebugGame Clean"
-			],
-			"type": "shell",
-			"options": {
-				"cwd": "C:\\Unreal\\UE_4.24"
-			}
-		},
-		{
-			"label": "Breakout Win64 DebugGame Clean",
-			"group": "build",
-			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
-			"args": [
-				"Breakout",
-				"Win64",
-				"DebugGame",
-				"C:\\Users\\Vlady\\Documents\\Unreal Projects\\Breakout\\Breakout.uproject",
-				"-waitmutex"
-			],
-			"problemMatcher": "$msCompile",
-			"type": "shell",
-			"options": {
-				"cwd": "C:\\Unreal\\UE_4.24"
-			}
-		},
-		{
-			"label": "Breakout Win64 Development Build",
-			"group": "build",
-			"command": "Engine\\Build\\BatchFiles\\Build.bat",
-			"args": [
-				"Breakout",
-				"Win64",
-				"Development",
-				"C:\\Users\\Vlady\\Documents\\Unreal Projects\\Breakout\\Breakout.uproject",
-				"-waitmutex"
-			],
-			"problemMatcher": "$msCompile",
-			"type": "shell",
-			"options": {
-				"cwd": "C:\\Unreal\\UE_4.24"
-			}
-		},
-		{
-			"label": "Breakout Win64 Development Rebuild",
-			"group": "build",
-			"command": "Engine\\Build\\BatchFiles\\Build.bat",
-			"args": [
-				"Breakout",
-				"Win64",
-				"Development",
-				"C:\\Users\\Vlady\\Documents\\Unreal Projects\\Breakout\\Breakout.uproject",
-				"-waitmutex"
-			],
-			"problemMatcher": "$msCompile",
-			"dependsOn": [
-				"Breakout Win64 Development Clean"
-			],
-			"type": "shell",
-			"options": {
-				"cwd": "C:\\Unreal\\UE_4.24"
-			}
-		},
-		{
-			"label": "Breakout Win64 Development Clean",
-			"group": "build",
-			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
-			"args": [
-				"Breakout",
-				"Win64",
-				"Development",
-				"C:\\Users\\Vlady\\Documents\\Unreal Projects\\Breakout\\Breakout.uproject",
-				"-waitmutex"
-			],
-			"problemMatcher": "$msCompile",
-			"type": "shell",
-			"options": {
-				"cwd": "C:\\Unreal\\UE_4.24"
-			}
-		},
-		{
-			"label": "Breakout Win64 Shipping Build",
-			"group": "build",
-			"command": "Engine\\Build\\BatchFiles\\Build.bat",
-			"args": [
-				"Breakout",
-				"Win64",
-				"Shipping",
-				"C:\\Users\\Vlady\\Documents\\Unreal Projects\\Breakout\\Breakout.uproject",
-				"-waitmutex"
-			],
-			"problemMatcher": "$msCompile",
-			"type": "shell",
-			"options": {
-				"cwd": "C:\\Unreal\\UE_4.24"
-			}
-		},
-		{
-			"label": "Breakout Win64 Shipping Rebuild",
-			"group": "build",
-			"command": "Engine\\Build\\BatchFiles\\Build.bat",
-			"args": [
-				"Breakout",
-				"Win64",
-				"Shipping",
-				"C:\\Users\\Vlady\\Documents\\Unreal Projects\\Breakout\\Breakout.uproject",
-				"-waitmutex"
-			],
-			"problemMatcher": "$msCompile",
-			"dependsOn": [
-				"Breakout Win64 Shipping Clean"
-			],
-			"type": "shell",
-			"options": {
-				"cwd": "C:\\Unreal\\UE_4.24"
-			}
-		},
-		{
-			"label": "Breakout Win64 Shipping Clean",
-			"group": "build",
-			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
-			"args": [
-				"Breakout",
-				"Win64",
-				"Shipping",
-				"C:\\Users\\Vlady\\Documents\\Unreal Projects\\Breakout\\Breakout.uproject",
-				"-waitmutex"
-			],
-			"problemMatcher": "$msCompile",
-			"type": "shell",
-			"options": {
-				"cwd": "C:\\Unreal\\UE_4.24"
-			}
-		},
-		{
-			"label": "Breakout Win64 Test Build",
-			"group": "build",
-			"command": "Engine\\Build\\BatchFiles\\Build.bat",
-			"args": [
-				"Breakout",
-				"Win64",
-				"Test",
-				"C:\\Users\\Vlady\\Documents\\Unreal Projects\\Breakout\\Breakout.uproject",
-				"-waitmutex"
-			],
-			"problemMatcher": "$msCompile",
-			"type": "shell",
-			"options": {
-				"cwd": "C:\\Unreal\\UE_4.24"
-			}
-		},
-		{
-			"label": "Breakout Win64 Test Rebuild",
-			"group": "build",
-			"command": "Engine\\Build\\BatchFiles\\Build.bat",
-			"args": [
-				"Breakout",
-				"Win64",
-				"Test",
-				"C:\\Users\\Vlady\\Documents\\Unreal Projects\\Breakout\\Breakout.uproject",
-				"-waitmutex"
-			],
-			"problemMatcher": "$msCompile",
-			"dependsOn": [
-				"Breakout Win64 Test Clean"
-			],
-			"type": "shell",
-			"options": {
-				"cwd": "C:\\Unreal\\UE_4.24"
-			}
-		},
-		{
-			"label": "Breakout Win64 Test Clean",
-			"group": "build",
-			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
-			"args": [
-				"Breakout",
-				"Win64",
-				"Test",
-				"C:\\Users\\Vlady\\Documents\\Unreal Projects\\Breakout\\Breakout.uproject",
-				"-waitmutex"
-			],
-			"problemMatcher": "$msCompile",
-			"type": "shell",
-			"options": {
-				"cwd": "C:\\Unreal\\UE_4.24"
+				"cwd": "/Users/Shared/Epic Games/UE_4.24"
 			}
 		},
 		{
 			"label": "Breakout IOS Debug Build",
 			"group": "build",
-			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
 			"args": [
 				"Breakout",
 				"IOS",
 				"Debug",
-				"C:\\Users\\Vlady\\Documents\\Unreal Projects\\Breakout\\Breakout.uproject",
+				"/Users/vladislavveselinov/Documents/Unreal Projects/Breakout/Breakout.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\Unreal\\UE_4.24"
+				"cwd": "/Users/Shared/Epic Games/UE_4.24"
 			}
 		},
 		{
 			"label": "Breakout IOS Debug Rebuild",
 			"group": "build",
-			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
 			"args": [
 				"Breakout",
 				"IOS",
 				"Debug",
-				"C:\\Users\\Vlady\\Documents\\Unreal Projects\\Breakout\\Breakout.uproject",
+				"/Users/vladislavveselinov/Documents/Unreal Projects/Breakout/Breakout.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -575,52 +310,53 @@
 			],
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\Unreal\\UE_4.24"
+				"cwd": "/Users/Shared/Epic Games/UE_4.24"
 			}
 		},
 		{
 			"label": "Breakout IOS Debug Clean",
 			"group": "build",
-			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
 			"args": [
 				"Breakout",
 				"IOS",
 				"Debug",
-				"C:\\Users\\Vlady\\Documents\\Unreal Projects\\Breakout\\Breakout.uproject",
-				"-waitmutex"
+				"/Users/vladislavveselinov/Documents/Unreal Projects/Breakout/Breakout.uproject",
+				"-waitmutex",
+				"-clean"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\Unreal\\UE_4.24"
+				"cwd": "/Users/Shared/Epic Games/UE_4.24"
 			}
 		},
 		{
 			"label": "Breakout IOS DebugGame Build",
 			"group": "build",
-			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
 			"args": [
 				"Breakout",
 				"IOS",
 				"DebugGame",
-				"C:\\Users\\Vlady\\Documents\\Unreal Projects\\Breakout\\Breakout.uproject",
+				"/Users/vladislavveselinov/Documents/Unreal Projects/Breakout/Breakout.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\Unreal\\UE_4.24"
+				"cwd": "/Users/Shared/Epic Games/UE_4.24"
 			}
 		},
 		{
 			"label": "Breakout IOS DebugGame Rebuild",
 			"group": "build",
-			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
 			"args": [
 				"Breakout",
 				"IOS",
 				"DebugGame",
-				"C:\\Users\\Vlady\\Documents\\Unreal Projects\\Breakout\\Breakout.uproject",
+				"/Users/vladislavveselinov/Documents/Unreal Projects/Breakout/Breakout.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -629,52 +365,53 @@
 			],
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\Unreal\\UE_4.24"
+				"cwd": "/Users/Shared/Epic Games/UE_4.24"
 			}
 		},
 		{
 			"label": "Breakout IOS DebugGame Clean",
 			"group": "build",
-			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
 			"args": [
 				"Breakout",
 				"IOS",
 				"DebugGame",
-				"C:\\Users\\Vlady\\Documents\\Unreal Projects\\Breakout\\Breakout.uproject",
-				"-waitmutex"
+				"/Users/vladislavveselinov/Documents/Unreal Projects/Breakout/Breakout.uproject",
+				"-waitmutex",
+				"-clean"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\Unreal\\UE_4.24"
+				"cwd": "/Users/Shared/Epic Games/UE_4.24"
 			}
 		},
 		{
 			"label": "Breakout IOS Development Build",
 			"group": "build",
-			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
 			"args": [
 				"Breakout",
 				"IOS",
 				"Development",
-				"C:\\Users\\Vlady\\Documents\\Unreal Projects\\Breakout\\Breakout.uproject",
+				"/Users/vladislavveselinov/Documents/Unreal Projects/Breakout/Breakout.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\Unreal\\UE_4.24"
+				"cwd": "/Users/Shared/Epic Games/UE_4.24"
 			}
 		},
 		{
 			"label": "Breakout IOS Development Rebuild",
 			"group": "build",
-			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
 			"args": [
 				"Breakout",
 				"IOS",
 				"Development",
-				"C:\\Users\\Vlady\\Documents\\Unreal Projects\\Breakout\\Breakout.uproject",
+				"/Users/vladislavveselinov/Documents/Unreal Projects/Breakout/Breakout.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -683,52 +420,53 @@
 			],
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\Unreal\\UE_4.24"
+				"cwd": "/Users/Shared/Epic Games/UE_4.24"
 			}
 		},
 		{
 			"label": "Breakout IOS Development Clean",
 			"group": "build",
-			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
 			"args": [
 				"Breakout",
 				"IOS",
 				"Development",
-				"C:\\Users\\Vlady\\Documents\\Unreal Projects\\Breakout\\Breakout.uproject",
-				"-waitmutex"
+				"/Users/vladislavveselinov/Documents/Unreal Projects/Breakout/Breakout.uproject",
+				"-waitmutex",
+				"-clean"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\Unreal\\UE_4.24"
+				"cwd": "/Users/Shared/Epic Games/UE_4.24"
 			}
 		},
 		{
 			"label": "Breakout IOS Shipping Build",
 			"group": "build",
-			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
 			"args": [
 				"Breakout",
 				"IOS",
 				"Shipping",
-				"C:\\Users\\Vlady\\Documents\\Unreal Projects\\Breakout\\Breakout.uproject",
+				"/Users/vladislavveselinov/Documents/Unreal Projects/Breakout/Breakout.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\Unreal\\UE_4.24"
+				"cwd": "/Users/Shared/Epic Games/UE_4.24"
 			}
 		},
 		{
 			"label": "Breakout IOS Shipping Rebuild",
 			"group": "build",
-			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
 			"args": [
 				"Breakout",
 				"IOS",
 				"Shipping",
-				"C:\\Users\\Vlady\\Documents\\Unreal Projects\\Breakout\\Breakout.uproject",
+				"/Users/vladislavveselinov/Documents/Unreal Projects/Breakout/Breakout.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -737,52 +475,53 @@
 			],
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\Unreal\\UE_4.24"
+				"cwd": "/Users/Shared/Epic Games/UE_4.24"
 			}
 		},
 		{
 			"label": "Breakout IOS Shipping Clean",
 			"group": "build",
-			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
 			"args": [
 				"Breakout",
 				"IOS",
 				"Shipping",
-				"C:\\Users\\Vlady\\Documents\\Unreal Projects\\Breakout\\Breakout.uproject",
-				"-waitmutex"
+				"/Users/vladislavveselinov/Documents/Unreal Projects/Breakout/Breakout.uproject",
+				"-waitmutex",
+				"-clean"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\Unreal\\UE_4.24"
+				"cwd": "/Users/Shared/Epic Games/UE_4.24"
 			}
 		},
 		{
 			"label": "Breakout IOS Test Build",
 			"group": "build",
-			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
 			"args": [
 				"Breakout",
 				"IOS",
 				"Test",
-				"C:\\Users\\Vlady\\Documents\\Unreal Projects\\Breakout\\Breakout.uproject",
+				"/Users/vladislavveselinov/Documents/Unreal Projects/Breakout/Breakout.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\Unreal\\UE_4.24"
+				"cwd": "/Users/Shared/Epic Games/UE_4.24"
 			}
 		},
 		{
 			"label": "Breakout IOS Test Rebuild",
 			"group": "build",
-			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
 			"args": [
 				"Breakout",
 				"IOS",
 				"Test",
-				"C:\\Users\\Vlady\\Documents\\Unreal Projects\\Breakout\\Breakout.uproject",
+				"/Users/vladislavveselinov/Documents/Unreal Projects/Breakout/Breakout.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -791,186 +530,190 @@
 			],
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\Unreal\\UE_4.24"
+				"cwd": "/Users/Shared/Epic Games/UE_4.24"
 			}
 		},
 		{
 			"label": "Breakout IOS Test Clean",
 			"group": "build",
-			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
 			"args": [
 				"Breakout",
 				"IOS",
 				"Test",
-				"C:\\Users\\Vlady\\Documents\\Unreal Projects\\Breakout\\Breakout.uproject",
+				"/Users/vladislavveselinov/Documents/Unreal Projects/Breakout/Breakout.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.24"
+			}
+		},
+		{
+			"label": "BreakoutEditor Mac Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"BreakoutEditor",
+				"Mac",
+				"Debug",
+				"/Users/vladislavveselinov/Documents/Unreal Projects/Breakout/Breakout.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\Unreal\\UE_4.24"
+				"cwd": "/Users/Shared/Epic Games/UE_4.24"
 			}
 		},
 		{
-			"label": "BreakoutEditor Win64 Debug Build",
+			"label": "BreakoutEditor Mac Debug Rebuild",
 			"group": "build",
-			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
 			"args": [
 				"BreakoutEditor",
-				"Win64",
+				"Mac",
 				"Debug",
-				"C:\\Users\\Vlady\\Documents\\Unreal Projects\\Breakout\\Breakout.uproject",
-				"-waitmutex"
-			],
-			"problemMatcher": "$msCompile",
-			"type": "shell",
-			"options": {
-				"cwd": "C:\\Unreal\\UE_4.24"
-			}
-		},
-		{
-			"label": "BreakoutEditor Win64 Debug Rebuild",
-			"group": "build",
-			"command": "Engine\\Build\\BatchFiles\\Build.bat",
-			"args": [
-				"BreakoutEditor",
-				"Win64",
-				"Debug",
-				"C:\\Users\\Vlady\\Documents\\Unreal Projects\\Breakout\\Breakout.uproject",
+				"/Users/vladislavveselinov/Documents/Unreal Projects/Breakout/Breakout.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"dependsOn": [
-				"BreakoutEditor Win64 Debug Clean"
+				"BreakoutEditor Mac Debug Clean"
 			],
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\Unreal\\UE_4.24"
+				"cwd": "/Users/Shared/Epic Games/UE_4.24"
 			}
 		},
 		{
-			"label": "BreakoutEditor Win64 Debug Clean",
+			"label": "BreakoutEditor Mac Debug Clean",
 			"group": "build",
-			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
 			"args": [
 				"BreakoutEditor",
-				"Win64",
+				"Mac",
 				"Debug",
-				"C:\\Users\\Vlady\\Documents\\Unreal Projects\\Breakout\\Breakout.uproject",
+				"/Users/vladislavveselinov/Documents/Unreal Projects/Breakout/Breakout.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.24"
+			}
+		},
+		{
+			"label": "BreakoutEditor Mac DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"BreakoutEditor",
+				"Mac",
+				"DebugGame",
+				"/Users/vladislavveselinov/Documents/Unreal Projects/Breakout/Breakout.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\Unreal\\UE_4.24"
+				"cwd": "/Users/Shared/Epic Games/UE_4.24"
 			}
 		},
 		{
-			"label": "BreakoutEditor Win64 DebugGame Build",
+			"label": "BreakoutEditor Mac DebugGame Rebuild",
 			"group": "build",
-			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
 			"args": [
 				"BreakoutEditor",
-				"Win64",
+				"Mac",
 				"DebugGame",
-				"C:\\Users\\Vlady\\Documents\\Unreal Projects\\Breakout\\Breakout.uproject",
-				"-waitmutex"
-			],
-			"problemMatcher": "$msCompile",
-			"type": "shell",
-			"options": {
-				"cwd": "C:\\Unreal\\UE_4.24"
-			}
-		},
-		{
-			"label": "BreakoutEditor Win64 DebugGame Rebuild",
-			"group": "build",
-			"command": "Engine\\Build\\BatchFiles\\Build.bat",
-			"args": [
-				"BreakoutEditor",
-				"Win64",
-				"DebugGame",
-				"C:\\Users\\Vlady\\Documents\\Unreal Projects\\Breakout\\Breakout.uproject",
+				"/Users/vladislavveselinov/Documents/Unreal Projects/Breakout/Breakout.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"dependsOn": [
-				"BreakoutEditor Win64 DebugGame Clean"
+				"BreakoutEditor Mac DebugGame Clean"
 			],
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\Unreal\\UE_4.24"
+				"cwd": "/Users/Shared/Epic Games/UE_4.24"
 			}
 		},
 		{
-			"label": "BreakoutEditor Win64 DebugGame Clean",
+			"label": "BreakoutEditor Mac DebugGame Clean",
 			"group": "build",
-			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
 			"args": [
 				"BreakoutEditor",
-				"Win64",
+				"Mac",
 				"DebugGame",
-				"C:\\Users\\Vlady\\Documents\\Unreal Projects\\Breakout\\Breakout.uproject",
+				"/Users/vladislavveselinov/Documents/Unreal Projects/Breakout/Breakout.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.24"
+			}
+		},
+		{
+			"label": "BreakoutEditor Mac Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"BreakoutEditor",
+				"Mac",
+				"Development",
+				"/Users/vladislavveselinov/Documents/Unreal Projects/Breakout/Breakout.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\Unreal\\UE_4.24"
+				"cwd": "/Users/Shared/Epic Games/UE_4.24"
 			}
 		},
 		{
-			"label": "BreakoutEditor Win64 Development Build",
+			"label": "BreakoutEditor Mac Development Rebuild",
 			"group": "build",
-			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
 			"args": [
 				"BreakoutEditor",
-				"Win64",
+				"Mac",
 				"Development",
-				"C:\\Users\\Vlady\\Documents\\Unreal Projects\\Breakout\\Breakout.uproject",
-				"-waitmutex"
-			],
-			"problemMatcher": "$msCompile",
-			"type": "shell",
-			"options": {
-				"cwd": "C:\\Unreal\\UE_4.24"
-			}
-		},
-		{
-			"label": "BreakoutEditor Win64 Development Rebuild",
-			"group": "build",
-			"command": "Engine\\Build\\BatchFiles\\Build.bat",
-			"args": [
-				"BreakoutEditor",
-				"Win64",
-				"Development",
-				"C:\\Users\\Vlady\\Documents\\Unreal Projects\\Breakout\\Breakout.uproject",
+				"/Users/vladislavveselinov/Documents/Unreal Projects/Breakout/Breakout.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"dependsOn": [
-				"BreakoutEditor Win64 Development Clean"
+				"BreakoutEditor Mac Development Clean"
 			],
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\Unreal\\UE_4.24"
+				"cwd": "/Users/Shared/Epic Games/UE_4.24"
 			}
 		},
 		{
-			"label": "BreakoutEditor Win64 Development Clean",
+			"label": "BreakoutEditor Mac Development Clean",
 			"group": "build",
-			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
 			"args": [
 				"BreakoutEditor",
-				"Win64",
+				"Mac",
 				"Development",
-				"C:\\Users\\Vlady\\Documents\\Unreal Projects\\Breakout\\Breakout.uproject",
-				"-waitmutex"
+				"/Users/vladislavveselinov/Documents/Unreal Projects/Breakout/Breakout.uproject",
+				"-waitmutex",
+				"-clean"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\Unreal\\UE_4.24"
+				"cwd": "/Users/Shared/Epic Games/UE_4.24"
 			}
 		}
 	]

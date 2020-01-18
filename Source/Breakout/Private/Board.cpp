@@ -7,6 +7,9 @@ ABoard::ABoard()
 {
 	StaticMeshComponent = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("StaticMeshComponent"));
 	SetRootComponent(StaticMeshComponent);
+
+	AttributeSet = CreateDefaultSubobject<UBreakoutAttributeSet>(TEXT("AttributeSet"));
+	AbilitySystemComponent = CreateDefaultSubobject<UAbilitySystemComponent>(TEXT("AbilitySystemComponent"));
 }
 
 // Called when the game starts or when spawned

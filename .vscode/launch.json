@@ -4,125 +4,110 @@
 		{
 			"name": "Breakout (Debug)",
 			"request": "launch",
-			"preLaunchTask": "Breakout Win64 Debug Build",
-			"program": "C:\\Users\\Vlady\\Documents\\Unreal Projects\\Breakout\\Binaries\\Win64\\UE4-Win64-Debug.exe",
+			"preLaunchTask": "Breakout Mac Debug Build",
+			"program": "/Users/vladislavveselinov/Documents/Unreal Projects/Breakout/Binaries/Mac/UE4-Mac-Debug.app/Contents/MacOS/UE4-Mac-Debug",
 			"args": [
 			],
-			"cwd": "C:\\Unreal\\UE_4.24",
-			"stopAtEntry": false,
-			"externalConsole": true,
-			"type": "cppvsdbg",
-			"visualizerFile": "C:\\Unreal\\UE_4.24\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+			"cwd": "/Users/Shared/Epic Games/UE_4.24",
+			"type": "lldb"
 		},
 		{
 			"name": "Breakout (DebugGame)",
 			"request": "launch",
-			"preLaunchTask": "Breakout Win64 DebugGame Build",
-			"program": "C:\\Users\\Vlady\\Documents\\Unreal Projects\\Breakout\\Binaries\\Win64\\UE4-Win64-DebugGame.exe",
+			"preLaunchTask": "Breakout Mac DebugGame Build",
+			"program": 66666   UU0bnjiijojkkmklpefwipierpfiprirpigoigrgierpgpkokokgogjbojbgbjgbijbjjjn                               hjd6a q7	dwq8dywq8dywq8wtd7 ^                       [lepfuiowfp;wj34fkorhge'''rhghihrihihirhirhirhihu23p[o[]piquùgfhr4y]]          RE  EEE E    ]] M5MM5M555679
+			
+			
+			
+			
+			
+			
+			
+			
+			\"/Users/vladislavveselinov/Documents/Unreal Projects/Breakout/Binaries/Mac/UE4-Mac-DebugGame.app/Contents/MacOS/UE4-Mac-DebugGame",
 			"args": [
 			],
-			"cwd": "C:\\Unreal\\UE_4.24",
-			"stopAtEntry": false,
-			"externalConsole": true,
-			"type": "cppvsdbg",
-			"visualizerFile": "C:\\Unreal\\UE_4.24\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+			"cwd": "/Users/Shared/Epic Games/UE_4.24",
+			"type": "lldb"
 		},
 		{
 			"name": "Breakout (Development)",
 			"request": "launch",
-			"preLaunchTask": "Breakout Win64 Development Build",
-			"program": "C:\\Users\\Vlady\\Documents\\Unreal Projects\\Breakout\\Binaries\\Win64\\UE4.exe",
+			"preLaunchTask": "Breakout Mac Development Build",
+			"program": "/Users/vladislavveselinov/Documents/Unreal Projects/Breakout/Binaries/Mac/UE4.app/Contents/MacOS/UE4",
 			"args": [
 			],
-			"cwd": "C:\\Unreal\\UE_4.24",
-			"stopAtEntry": false,
-			"externalConsole": true,
-			"type": "cppvsdbg",
-			"visualizerFile": "C:\\Unreal\\UE_4.24\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+			"cwd": "/Users/Shared/Epic Games/UE_4.24",
+			"type": "lldb"
 		},
 		{
 			"name": "Breakout (Shipping)",
 			"request": "launch",
-			"preLaunchTask": "Breakout Win64 Shipping Build",
-			"program": "C:\\Users\\Vlady\\Documents\\Unreal Projects\\Breakout\\Binaries\\Win64\\UE4-Win64-Shipping.exe",
+			"preLaunchTask": "Breakout Mac Shipping Build",
+			"program": "/Users/vladislavveselinov/Documents/Unreal Projects/Breakout/Binaries/Mac/UE4-Mac-Shipping.app/Contents/MacOS/UE4-Mac-Shipping",
 			"args": [
 			],
-			"cwd": "C:\\Unreal\\UE_4.24",
-			"stopAtEntry": false,
-			"externalConsole": true,
-			"type": "cppvsdbg",
-			"visualizerFile": "C:\\Unreal\\UE_4.24\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+			"cwd": "/Users/Shared/Epic Games/UE_4.24",
+			"type": "lldb"
 		},
 		{
 			"name": "Breakout (Test)",
 			"request": "launch",
-			"preLaunchTask": "Breakout Win64 Test Build",
-			"program": "C:\\Users\\Vlady\\Documents\\Unreal Projects\\Breakout\\Binaries\\Win64\\UE4-Win64-Test.exe",
+			"preLaunchTask": "Breakout Mac Test Build",
+			"program": "/Users/vladislavveselinov/Documents/Unreal Projects/Breakout/Binaries/Mac/UE4-Mac-Test.app/Contents/MacOS/UE4-Mac-Test",
 			"args": [
 			],
-			"cwd": "C:\\Unreal\\UE_4.24",
-			"stopAtEntry": false,
-			"externalConsole": true,
-			"type": "cppvsdbg",
-			"visualizerFile": "C:\\Unreal\\UE_4.24\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+			"cwd": "/Users/Shared/Epic Games/UE_4.24",
+			"type": "lldb"
 		},
 		{
 			"name": "BreakoutEditor (Debug)",
 			"request": "launch",
-			"preLaunchTask": "BreakoutEditor Win64 Debug Build",
-			"program": "C:\\Unreal\\UE_4.24\\Engine\\Binaries\\Win64\\UE4Editor-Win64-Debug.exe",
+			"preLaunchTask": "BreakoutEditor Mac Debug Build",
+			"program": "/Users/Shared/Epic Games/UE_4.24/Engine/Binaries/Mac/UE4Editor-Mac-Debug.app/Contents/MacOS/UE4Editor-Mac-Debug",
 			"args": [
-				"C:\\Users\\Vlady\\Documents\\Unreal Projects\\Breakout\\Breakout.uproject"
+				"/Users/vladislavveselinov/Documents/Unreal Projects/Breakout/Breakout.uproject"
 			],
-			"cwd": "C:\\Unreal\\UE_4.24",
-			"stopAtEntry": false,
-			"externalConsole": true,
-			"type": "cppvsdbg",
-			"visualizerFile": "C:\\Unreal\\UE_4.24\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+			"cwd": "/Users/Shared/Epic Games/UE_4.24",
+			"type": "lldb"
 		},
 		{
 			"name": "BreakoutEditor (DebugGame)",
 			"request": "launch",
-			"preLaunchTask": "BreakoutEditor Win64 DebugGame Build",
-			"program": "C:\\Unreal\\UE_4.24\\Engine\\Binaries\\Win64\\UE4Editor-Win64-DebugGame.exe",
+			"preLaunchTask": "BreakoutEditor Mac DebugGame Build",
+			"program": "/Users/Shared/Epic Games/UE_4.24/Engine/Binaries/Mac/UE4Editor-Mac-DebugGame.app/Contents/MacOS/UE4Editor-Mac-DebugGame",
 			"args": [
-				"C:\\Users\\Vlady\\Documents\\Unreal Projects\\Breakout\\Breakout.uproject"
+				"/Users/vladislavveselinov/Documents/Unreal Projects/Breakout/Breakout.uproject"
 			],
-			"cwd": "C:\\Unreal\\UE_4.24",
-			"stopAtEntry": false,
-			"externalConsole": true,
-			"type": "cppvsdbg",
-			"visualizerFile": "C:\\Unreal\\UE_4.24\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+			"cwd": "/Users/Shared/Epic Games/UE_4.24",
+			"type": "lldb"
 		},
 		{
 			"name": "BreakoutEditor (Development)",
 			"request": "launch",
-			"preLaunchTask": "BreakoutEditor Win64 Development Build",
-			"program": "C:\\Unreal\\UE_4.24\\Engine\\Binaries\\Win64\\UE4Editor.exe",
+			"preLaunchTask": "BreakoutEditor Mac Development Build",
+			"program": "/Users/Shared/Epic Games/UE_4.24/Engine/Binaries/Mac/UE4Editor.app/Contents/MacOS/UE4Editor",
 			"args": [
-				"C:\\Users\\Vlady\\Documents\\Unreal Projects\\Breakout\\Breakout.uproject"
+				"/Users/vladislavveselinov/Documents/Unreal Projects/Breakout/Breakout.uproject"
 			],
-			"cwd": "C:\\Unreal\\UE_4.24",
-			"stopAtEntry": false,
-			"externalConsole": true,
-			"type": "cppvsdbg",
-			"visualizerFile": "C:\\Unreal\\UE_4.24\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+			"cwd": "/Users/Shared/Epic Games/UE_4.24",
+			"type": "lldb"
 		},
 		{
 			"name": "Generate Project Files",
-			"type": "clr",
+			"type": "mono",
 			"request": "launch",
-			"program": "C:\\Unreal\\UE_4.24\\Engine\\Binaries\\DotNET\\UnrealBuildTool.exe",
-			"console": "externalTerminal",
+			"program": "/Users/Shared/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe",
+			"console": "internalConsole",
 			"args": [
 				"-projectfiles",
 				"-vscode",
-				"-project=\"C:\\Users\\Vlady\\Documents\\Unreal Projects\\Breakout\\Breakout.uproject\"",
+				"-project=\"/Users/vladislavveselinov/Documents/Unreal Projects/Breakout/Breakout.uproject\"",
 				"-game",
 				"-engine"
 			],
 			"internalConsoleOptions": "openOnSessionStart",
-			"cwd": "C:\\Unreal\\UE_4.24"
+			"cwd": "/Users/Shared/Epic Games/UE_4.24"
 		}
 	]
 }

@@ -17,12 +17,12 @@ void ABreakoutController::BeginPlay()
   Super::BeginPlay();
   UWorld *World = GetWorld();
 
-  FVector BoardSpawnLocation, BoardSpawnDirection;
-  DeprojectScreenPositionToWorld(0, 0, BoardSpawnLocation, BoardSpawnDirection);
+  FVector OutBoardSpawnLocation, OutBoardSpawnDirection;
+  DeprojectScreenPositionToWorld(0, 0, OutBoardSpawnLocation, OutBoardSpawnDirection);
 
-  BoardSpawnLocation.Z = World->GetAuthGameMode<ABreakoutGameModeBase>()->SpawnZHeight;
+  OutBoardSpawnLocation.Z = World->GetAuthGameMode<ABreakoutGameModeBase>()->SpawnZHeight;
 
-  Board = World->SpawnActor<ABoard>(BoardToSpawn, BoardSpawnLocation, FRotator::ZeroRotator);
+  Board = World->SpawnActor<ABoard>(BoardToSpawn, OutBoardSpawnLocation, FRotator::ZeroRotator);
 }
 
 void ABreakoutController::SetupInputComponent()
@@ -43,11 +43,16 @@ void ABreakoutController::MoveRight(const float Value)
     const FVector Velocity = Board->GetVelocity();
     const bool AreDirectionsDifferent = (Value > 0) != (Velocity.Y > 0);
 
-    if (AreDirectionsDifferent)
+    if (Value == 0 || AreDirectionsDifferent)
     {
       // To make movement feel more responsive
       Board->StaticMeshComponent->SetPhysicsLinearVelocity(FVector::ZeroVector);
       Board->StaticMeshComponent->AddImpulse(Offset * DirectionChangedImpulseStrength);
+    }
+
+    if (Value == 0 && Velocity.Size() > 0)
+    {
+      Board->StaticMeshComponent->SetPhysicsLinearVelocity(FVector::ZeroVector);
     }
   }
 }

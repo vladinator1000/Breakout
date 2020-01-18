@@ -5,7 +5,7 @@
 #include "CoreMinimal.h"
 #include "Engine/DataAsset.h"
 #include "GameplayTagContainer.h"
-#include "Abilities/FGameplayAttributeValue.h"
+#include "Abilities/FPossiblyRangedValue.h"
 #include "DA_Ball.generated.h"
 
 UCLASS()
@@ -27,5 +27,5 @@ public:
 	FGameplayTagContainer Tags;
 
 	UPROPERTY(EditAnywhere, BlueprintReadOnly)
-	TMap<FGameplayAttribute, FGameplayAttributeValue> Attributes;
+	TMap<FGameplayAttribute, FPossiblyRangedValue> Attributes;
 };

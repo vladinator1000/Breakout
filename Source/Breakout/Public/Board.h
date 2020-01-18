@@ -9,6 +9,7 @@
 #include "AbilitySystemInterface.h"
 #include "Ball.h"
 #include "DA_Ball.h"
+#include "Abilities/BreakoutAttributeSet.h"
 #include "Board.generated.h"
 
 UCLASS()
@@ -47,5 +48,5 @@ protected:
 
 	/** List of attributes modified by the ability system */
 	UPROPERTY()
-	UAttributeSet *AttributeSet;
+	UBreakoutAttributeSet *AttributeSet;
 };
